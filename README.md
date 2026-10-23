@@ -52,13 +52,13 @@ now that that's out of the way we can get started with the requirements we need 
    incase you do wish to install a dashboard you've got a variety to choose from. 
    The following dashboards will be ranked from lightest to heaviest.
 
-| Name | Minimum RAM | Minimum Disk Space | Difficulty | Notes |
-|-----------|------------|-------------------|------------|---------|
-| EveBox | 512 MB | 1 GB | Easy | Dedicated Suricata alert viewer |
-| Grafana + Loki | 2 GB | 5-10 GB | Easy-Medium | Lightweight dashboards and logging |
-| Wazuh | 4-8 GB | 25-50 GB | Medium | Full SIEM platform |
-| OpenSearch Dashboards | 4 GB | 20-30 GB | Medium | Elastic alternative |
-| Security Onion | 16+ GB | 200+ GB | Hard | Complete SOC environment |
+| Name | Minimum RAM | Minimum Disk Space | Difficulty | 
+|-----------|------------|-------------------|------------|
+| EveBox | 512 MB | 1 GB | Easy |
+| Grafana + Loki | 2 GB | 5-10 GB | Easy-Medium |
+| Wazuh | 4-8 GB | 25-50 GB | Medium |
+| OpenSearch Dashboards | 4 GB | 20-30 GB | Medium |
+| Security Onion | 16+ GB | 200+ GB | Hard |
 
    
 
