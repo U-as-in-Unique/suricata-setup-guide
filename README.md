@@ -69,9 +69,18 @@ now that that's out of the way we can get started with the requirements we need 
 
 ## CONFIGURATION 
 
-<h2> 
+<h3> 
 .YAML
-</h2>
+</h3>
+
+typing the following command will bring us to the .yaml file we need to configure SURICATA. 
+```bash
+cd /etc/suricata/
+```
+now we edit the .yaml file 
+```bash
+sudo nano /etc/suricata/suricata.yaml
+```
 
 
 
