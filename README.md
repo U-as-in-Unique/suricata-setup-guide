@@ -1,18 +1,17 @@
 
 # Suricata Home Lab
 
-SURICATA is a well respected application many people use to startout with home labbing due to the fact that suricata offers a NIDS/NIPS that is easy to setup and work with.
+SURICATA is a well respected application many people use to start with when home labbing due to the fact that suricata offers a NIDS/NIPS that is easy to setup and work with.
 
 ## Overview
 
-This project demonstrates the deployment and configuration of Suricata in a home lab environment. The objective is to monitor network traffic, detect potential threats, and gain hands-on experience with intrusion detection systems.
+This project demonstrates the deployment and configuration of Suricata in a home lab environment <p font-size="32px"> FOR LINUX </p> . The objective is to monitor network traffic, detect potential threats, and gain hands-on experience with intrusion detection systems.
 
 ## Environment
 
 - Suricata
 - Linux
-- Virtual Machines
-- Tailscale
+- Virtual Machines (optional for dashboard)
 - Test network environment
 - Dashboard (optional) 
 
