@@ -14,6 +14,7 @@ This project demonstrates the deployment and configuration of Suricata in a home
 - Virtual Machines
 - Tailscale
 - Test network environment
+- Dashboard (optional) 
 
 ## Features
 
@@ -39,4 +40,15 @@ and then the following
 ```bash
 systemctl status suricata
 ```
+now that that's out of the way we can get started with the requirements we need to know before we touch the .yaml file.
+
+1) get the wifi interface using
+   ```bash
+   ip a
+   ```
+2) **optional** you can get a dashboard to make it easier to view.
+   i personally just view the eve.json or fast.log files but that is something i will explain later on.
+
+
+
 
