@@ -41,12 +41,12 @@ and then the following
 systemctl status suricata
 ```
 now that that's out of the way we can get started with the requirements we need to know before we touch the .yaml file.
-<h3> 1) INTERFACE </h3>
+ 1) **INTERFACE**
 get the wifi interface using (examples: eth0, enp2s0, wlan0).
    ```bash
    ip a
    ```
-<h3> 2) **optional** </h3> 
+2) **optional** 
 you can get a dashboard to make it easier to view.
 i personally tail -f  the eve.json or fast.log files but that is something i will explain later on.
 
@@ -82,6 +82,13 @@ now we edit the .yaml file
 ```bash
 sudo nano /etc/suricata/suricata.yaml
 ```
+
+once inside the .yaml file we head on over to - address-groups -
+change this to your ip address. this can be for either the entire network (preferred) or one device.
+<img width="635" height="492" alt="Screenshot 2026-10-23 215534" src="https://github.com/user-attachments/assets/06d532d1-ed9c-49bf-a202-ce55c9e69ac7" />
+**the hashtags are comments uncomment this by removing the hashtag**
+
+
 
 
 
