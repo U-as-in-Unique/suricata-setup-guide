@@ -85,10 +85,10 @@ sudo nano /etc/suricata/suricata.yaml
 
 once inside the .yaml file we head on over to - address-groups -
 change this to your ip address. this can be for either the entire network (preferred) or one device.
-**the hashtags are comments uncomment this by removing the hashtag**
 
 <img width="400" height="200" align="center" alt="Screenshot 2026-10-23 215534" src="https://github.com/user-attachments/assets/06d532d1-ed9c-49bf-a202-ce55c9e69ac7" />
 
+**the hashtags are comments uncomment this by removing the hashtag**
 
 
 
