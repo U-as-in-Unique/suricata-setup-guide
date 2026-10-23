@@ -64,6 +64,11 @@ i personally tail -f  the eve.json or fast.log files but that is something i wil
 3) It is also important that i tell you most of your time is going to be spent in the /etc/suricata/ directory for configuring your SURICATA.
    To view your logs you're going to need the /var/log/suricata/ directory. **keep this in mind**
 
+   Enter the following command to download the latest emerging threat rules. **(   !! this command reboots your device !! )** 
+   ```bash
+   sudo suricata-update
+   ```
+
    We have now gone over the basics that you should know before configging the .yaml file.
 
 
@@ -89,8 +94,12 @@ change this to your ip address. this can be for either the entire network (prefe
 
 **the hashtags are comments uncomment this by removing the hashtag**
 
-Now that you've adjusted the HOME_ADDRESS we can move onto af-packet where you will enter your network interface.
+Now that you've adjusted the HOME_ADDRESS we can move onto af-packet where you will enter your network interface. In my case it's eth0.
 <img width="600" height="400" alt="Screenshot 2026-10-23 220153" src="https://github.com/user-attachments/assets/ebfa0d9d-77d3-4e54-ae32-74785b8904c7" />
+
+
+
+
 
 
 
