@@ -41,13 +41,14 @@ and then the following
 systemctl status suricata
 ```
 now that that's out of the way we can get started with the requirements we need to know before we touch the .yaml file.
-
-1)get the wifi interface using (examples: eth0, enp2s0, wlan0).
+<h3> 1) INTERFACE </h3>
+get the wifi interface using (examples: eth0, enp2s0, wlan0).
    ```bash
    ip a
    ```
-2)**optional** you can get a dashboard to make it easier to view.
-   i personally tail -f  the eve.json or fast.log files but that is something i will explain later on.
+<h3> 2) **optional** </h3> 
+you can get a dashboard to make it easier to view.
+i personally tail -f  the eve.json or fast.log files but that is something i will explain later on.
 
    incase you do wish to install a dashboard you've got a variety to choose from. 
    The following dashboards will be ranked from lightest to heaviest.
