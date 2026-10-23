@@ -42,11 +42,11 @@ systemctl status suricata
 ```
 now that that's out of the way we can get started with the requirements we need to know before we touch the .yaml file.
 
-1) get the wifi interface using (examples: eth0, enp2s0, wlan0).
+1)get the wifi interface using (examples: eth0, enp2s0, wlan0).
    ```bash
    ip a
    ```
-2) **optional** you can get a dashboard to make it easier to view.
+2)**optional** you can get a dashboard to make it easier to view.
    i personally tail -f  the eve.json or fast.log files but that is something i will explain later on.
 
    incase you do wish to install a dashboard you've got a variety to choose from. 
@@ -54,28 +54,28 @@ now that that's out of the way we can get started with the requirements we need 
 
     **EveBox**
    -min RAM: 512MB
-   -min DISK: 1GB
-   difficulty: easy
+      -min DISK: 1GB
+         difficulty: easy
 
    **Grafana + Loki**
    -min RAM: 2GB
-   -min DISK: 5-10GB
-   difficult: Medium
+      -min DISK: 5-10GB
+         difficult: Medium
 
    **Opensearch**
    -min RAM: 4GB
-   -min DISK: 20-30 GB
-   difficulty: medium
+      -min DISK: 20-30 GB
+         difficulty: medium
    
    **Wazuh**
    -min RAM: 4-8GB
-   -min DISK: 25-50GB
-   difficulty: medium
+      -min DISK: 25-50GB
+         difficulty: medium
 
    **Security Onion**
    -min RAM: 16GB+
-   -min DISK: 200GB+
-   difficulty: HARD
+      -min DISK: 200GB+
+         difficulty: HARD
 
 
 
