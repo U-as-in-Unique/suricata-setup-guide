@@ -90,6 +90,10 @@ change this to your ip address. this can be for either the entire network (prefe
 
 **the hashtags are comments uncomment this by removing the hashtag**
 
+Now that you've adjusted the HOME_ADDRESS we can move onto af-packet
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/a5ba6181-d99b-453f-8688-61e9411464c3" />
+
+
 
 
 
