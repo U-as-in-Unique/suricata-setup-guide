@@ -51,7 +51,7 @@ now that that's out of the way we can get started with the requirements we need 
 
    incase you do wish to install a dashboard you've got a variety to choose from. 
    The following dashboards will be ranked from lightest to heaviest.
-<head align="center">
+
 | Name | Minimum RAM | Minimum Disk Space | Difficulty | 
 |-----------|------------|-------------------|------------|
 | EveBox | 512 MB | 1 GB | Easy |
@@ -59,11 +59,19 @@ now that that's out of the way we can get started with the requirements we need 
 | Wazuh | 4-8 GB | 25-50 GB | Medium |
 | OpenSearch Dashboards | 4 GB | 20-30 GB | Medium |
 | Security Onion | 16+ GB | 200+ GB | Hard |
-</head>
-   
 
-4) 
 
+3) It is also important that i tell you most of your time is going to be spent in the /etc/suricata/ directory for configuring your SURICATA.
+   To view your logs you're going to need the /var/log/suricata/ directory. **keep this in mind**
+
+   We have now gone over the basics that you should know before configging the .yaml file.
+
+
+## CONFIGURATION 
+
+<h2> 
+.YAML
+</h2>
 
 
 
