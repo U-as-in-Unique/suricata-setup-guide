@@ -92,7 +92,7 @@ Now that you've adjusted the HOME_ADDRESS we can move onto af-packet where you w
 <img width="600" height="400" alt="Screenshot 2026-10-23 220153" src="https://github.com/user-attachments/assets/ebfa0d9d-77d3-4e54-ae32-74785b8904c7" />
 
 
-##TEST
+## TEST
 once you've exited the .yaml file the next step is to test the configuration you have just done.
 ```bash
 sudo suricata -T -c /etc/suricata/suricata.yaml
@@ -111,9 +111,11 @@ sudo systemctl status suricata
 ```
 <img width="600" height="150" alt="image" src="https://github.com/user-attachments/assets/79a1bfea-4b27-4c72-bda0-30ac2edde346" />
 
-##POST-INSTALLATION 
-you are now good to go.
-after installation you've 
+## POST-INSTALLATION 
+you can now enjoy the NIDS you've configured to work for your own network.
+if you wish to add some of your own rules I will leave some basic rules for different kinds of attacks <a href="">here</a>
+
+
 
 
 
