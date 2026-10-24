@@ -7,7 +7,6 @@ SURICATA is a well respected application many people use to start with when home
 
 This project demonstrates the deployment and configuration of Suricata in a home lab environment  **!!FOR LINUX!!**. The objective is to monitor network traffic, detect potential threats, and gain hands-on experience with intrusion detection systems.
 
-<h2 color="red"> IF YOU RUN INTO ANY ISSUES TRY VISITTING  </h2>
 ## Environment
 
 - Suricata
