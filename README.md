@@ -1,7 +1,7 @@
 
 # Suricata Home Lab
 
-SURICATA is a well respected application many people use to start with when home labbing due to the fact that suricata offers a NIDS/NIPS that is easy to setup and work with.
+Suricata is a well-respected application that many people start with when building a home lab because it provides an easy-to-configure NIDS/NIPS solution.
 
 ## Overview
 
@@ -25,25 +25,25 @@ This project demonstrates the deployment and configuration of Suricata in a home
 
 ## Installation
 
-first of all install SURICATA using the command shown below.
+First, install Suricata using the command shown below.
 ```bash
 sudo apt install suricata
 ```
-once installed check the status. 
+Once installed, check its status.
 ```bash
 systemctl status suricata
 ```
-now that that's out of the way we can get started with the requirements we need to know before we touch the .yaml file.
- 1) **INTERFACE**
-get the wifi interface using (examples: eth0, enp2s0, wlan0).
+Now that that's out of the way, we can go over the requirements you should know before editing the .yaml file
+ 1) **INTERFACE** 
+Identify your network interface (for example: eth0, enp2s0, or wlan0).
    ```bash
    ip a
    ```
 2) **OPTIONAL** 
-you can get a dashboard to make it easier to view.
-i personally "tail -f"  the eve.json or fast.log files but that is something i will explain later on.
+You can optionally install a dashboard to make monitoring easier.
+Personally, I prefer using tail -f on the eve.json or fast.log files
 
-   incase you do wish to install a dashboard you've got a variety to choose from. 
+ If you would like to install a dashboard, there are several options available.
 
 | Name | Minimum RAM | Minimum Disk Space | Difficulty | 
 |-----------|------------|-------------------|------------|
@@ -54,7 +54,7 @@ i personally "tail -f"  the eve.json or fast.log files but that is something i w
 | Security Onion | 16+ GB | 200+ GB | Hard |
 
 
-3) It is also important that i tell you most of your time is going to be spent in the /etc/suricata/ directory for configuring your SURICATA.
+3) Most of your configuration work will take place in the /etc/suricata/ directory.
    To view your logs you're going to need the /var/log/suricata/ directory. **keep this in mind**
 
    Enter the following command to download the latest emerging threat rules. **(   !! this command reboots your device !! )** 
