@@ -29,12 +29,7 @@ first of all install SURICATA using the command shown below.
 ```bash
 sudo apt install suricata
 ```
-once installed head into sudo to double check
-```bash
-su
-```
-
-and then the following 
+once installed check the status. 
 ```bash
 systemctl status suricata
 ```
@@ -94,6 +89,27 @@ change this to your ip address. this can be for either the entire network (prefe
 
 Now that you've adjusted the HOME_ADDRESS we can move onto af-packet where you will enter your network interface. In my case it's eth0.
 <img width="600" height="400" alt="Screenshot 2026-10-23 220153" src="https://github.com/user-attachments/assets/ebfa0d9d-77d3-4e54-ae32-74785b8904c7" />
+
+
+##TEST
+once you've exited the .yaml file the next step is to test the configuration you have just done.
+```bash
+sudo suricata -T -c /etc/suricata/suricata.yaml
+```
+if output is: Configuration provided was successfully loaded
+you are good to go.
+
+now that that's out the way we can start suricata.
+```bash
+sudo systemctl enable suricata
+sudo systemctl start suricata
+```
+and then check status again 
+```bash
+sudo systemctl status suricata
+```
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/79a1bfea-4b27-4c72-bda0-30ac2edde346" />
+
 
 
 
