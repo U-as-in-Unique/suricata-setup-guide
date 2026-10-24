@@ -7,6 +7,7 @@ SURICATA is a well respected application many people use to start with when home
 
 This project demonstrates the deployment and configuration of Suricata in a home lab environment  **!!FOR LINUX!!**. The objective is to monitor network traffic, detect potential threats, and gain hands-on experience with intrusion detection systems.
 
+<h2 color="red"> IF YOU RUN INTO ANY ISSUES TRY VISITTING  </h2>
 ## Environment
 
 - Suricata
@@ -108,7 +109,11 @@ and then check status again
 ```bash
 sudo systemctl status suricata
 ```
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/79a1bfea-4b27-4c72-bda0-30ac2edde346" />
+<img width="600" height="150" alt="image" src="https://github.com/user-attachments/assets/79a1bfea-4b27-4c72-bda0-30ac2edde346" />
+
+##POST-INSTALLATION 
+you are now good to go.
+after installation you've 
 
 
 
