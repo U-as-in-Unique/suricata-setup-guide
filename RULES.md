@@ -5,9 +5,4 @@
   * T0-T5 scans
   * -sN scans
 
-
-
-
-
-## NMAP-SCANS
-
+rules will come very soon...
