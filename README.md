@@ -113,7 +113,7 @@ sudo systemctl status suricata
 
 ## POST-INSTALLATION 
 you can now enjoy the NIDS you've configured to work for your own network.
-if you wish to add some of your own rules I will leave some basic rules for different kinds of attacks <a href="">here</a>
+if you wish to add some of your own rules I will leave some basic rules for different kinds of attacks <a href="https://github.com/unique-bhujel/suricata-setup-guide/blob/main/RULES.md">here</a>
 
 
 
