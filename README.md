@@ -29,10 +29,9 @@ first of all install SURICATA using the command shown below.
 ```bash
 sudo apt install suricata
 ```
-once suricata is installed we will do a quick little checkup 
-for this we will head into sudo using 
+once installed head into sudo to double check
 ```bash
-sudo
+su
 ```
 
 and then the following 
@@ -45,12 +44,11 @@ get the wifi interface using (examples: eth0, enp2s0, wlan0).
    ```bash
    ip a
    ```
-2) **optional** 
+2) **OPTIONAL** 
 you can get a dashboard to make it easier to view.
-i personally tail -f  the eve.json or fast.log files but that is something i will explain later on.
+i personally "tail -f"  the eve.json or fast.log files but that is something i will explain later on.
 
    incase you do wish to install a dashboard you've got a variety to choose from. 
-   The following dashboards will be ranked from lightest to heaviest.
 
 | Name | Minimum RAM | Minimum Disk Space | Difficulty | 
 |-----------|------------|-------------------|------------|
