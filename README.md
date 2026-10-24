@@ -87,7 +87,7 @@ change this to your ip address. this can be for either the entire network (prefe
 
 **the hashtags are comments uncomment this by removing the hashtag**
 
-Now that you've adjusted the HOME_ADDRESS we can move onto af-packet where you will enter your network interface. In my case it's eth0.
+Now that you've adjusted the HOME_ADDRESS we can move onto af-packet.
 <img width="600" height="400" alt="Screenshot 2026-10-23 220153" src="https://github.com/user-attachments/assets/ebfa0d9d-77d3-4e54-ae32-74785b8904c7" />
 
 
