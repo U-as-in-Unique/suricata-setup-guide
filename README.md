@@ -40,7 +40,7 @@ Identify your network interface (for example: eth0, enp2s0, or wlan0).
    ip a
    ```
 2) **OPTIONAL** 
-You can optionally install a dashboard to make monitoring easier.
+You can optionally install a dashboard for easier monitoring.
 Personally, I prefer using tail -f on the eve.json or fast.log files
 
  If you would like to install a dashboard, there are several options available.
